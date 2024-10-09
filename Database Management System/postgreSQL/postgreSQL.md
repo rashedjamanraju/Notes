@@ -103,6 +103,9 @@ CREATE TABLE person(
     city VARCHAR(100)
 );
 ```
+here,
+    VARCHAR(100) means name and city field can contain maximum 100 characters.
+    
 ![alt text](image-26.png)
 
 ---
