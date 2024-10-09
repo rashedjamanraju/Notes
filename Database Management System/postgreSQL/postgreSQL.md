@@ -23,10 +23,15 @@ To clear the terminal screen, use:
 ## 3. **Check Existing Databases** 📊
 You can check existing databases using the terminal with the following commands:
 ```shell
-\list;
 \l; 
+```
+```shell
+\list; 
+```
+```shell
 SELECT datname FROM pg_database; 
 ```
+
 ![alt text](image-15.png)
 
 ### Using pgAdmin 4:
@@ -105,7 +110,6 @@ CREATE TABLE person(
 ```
 here,
     VARCHAR(100) means name and city field can contain maximum 100 characters.
-    
 ![alt text](image-26.png)
 
 ---
