@@ -167,7 +167,7 @@ SELECT * FROM information_schema.columns WHERE table_name = 'person';
     ```sql
     SELECT name, city FROM person;
     ```
-- For specific id conatining row:
+- For specific id containing row:
     ```sql
     SELECT * FROM person WHERE id=102;
     ```
