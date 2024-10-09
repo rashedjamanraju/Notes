@@ -112,8 +112,7 @@ CREATE TABLE person(
     city VARCHAR(100)
 );
 ```
-here,
-    VARCHAR(100) means name and city field can contain maximum 100 characters.
+here, **VARCHAR(100)** means, name and city field can contain maximum 100 characters.
 ![alt text](image-26.png)
 
 ---
@@ -210,7 +209,7 @@ WHERE id = 102;
 ### 14. **Data Types in PostgreSQL** 📊
 **Numeric Types:**
 - `INT`
-- `DOUBLE`
+- `DOUBLE PRECISION`
 - `FLOAT`
 - `DECIMAL`
 - `SERIAL`
