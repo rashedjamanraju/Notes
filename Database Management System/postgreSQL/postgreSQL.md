@@ -22,17 +22,21 @@ To clear the terminal screen, use:
 
 ## 3. **Check Existing Databases** 📊
 You can check existing databases using the terminal with the following commands:
-```shell
-\l; 
-```
-```shell
-\list; 
-```
-```shell
-SELECT datname FROM pg_database; 
-```
+- **Way 1**:
+    ```shell
+    \l; 
+    ```
+    ![alt text](image-15.png)
+- **Way 2**:
+    ```shell
+    \list; 
+    ```
+- **Way 3**:
+    ```shell
+    SELECT datname FROM pg_database; 
+    ```
 
-![alt text](image-15.png)
+
 
 ### Using pgAdmin 4:
 1. Select **postgres**.
