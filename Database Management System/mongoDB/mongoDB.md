@@ -1,10 +1,83 @@
 
-![alt text](image-4.png)
+# Database
+
+**What is a Database?** 
+- Think of a database like a big box where you keep smaller boxes. Each smaller box holds things that are related to each other, like clothes in a drawer.
+- It's also like a big bookshelf where each shelf (collection) holds books (documents) on a similar topic.
+
+**Why Do We Need Databases?** 
+- They help us keep our stuff organized. Instead of scattering items all over the place, we can group them together neatly.
+- Just like how folders on your computer help you find files quickly, databases help us find information efficiently.
+
+**Key Points:**
+- **Database:** It's a big box (or bookshelf) holding smaller boxes (or shelves) where we keep related things (or documents).
+- **Collections:** These are the smaller boxes (or shelves) inside the big box (or bookshelf), organizing similar items together.
+- Databases make it easy to manage and find information when it's all neatly organized.
+
+![alt text](image-3.png)
+**Example of DB below (mongoDB):**
+```json
+[
+    [
+        {
+            "uID": 1,
+            "name": "Rashed",
+            "email": "rashed@gmail.com",
+            "password": "Xy7#nKp2@"
+        },
+        {
+            "uID": 2,
+            "name": "Jaman",
+            "email": "jaman@gmail.com",
+            "password": "$L9wYq3r"
+        },
+        {
+            "uID": 3,
+            "name": "Raju",
+            "email": "raju@gmail.com",
+            "password": "6bZ&g#Px"
+        },
+        {
+            "uID": 4,
+            "name": "Rimon",
+            "email": "rimon@gmail.com",
+            "password": "4sV@jK!8"
+        }
+    ],
+    [
+        {
+            "cID": 1,
+            "name": "HTML",
+            "description": "Learn HTML.......",
+            "price": "10$"
+        },
+        {
+            "cID": 2,
+            "name": "CSS",
+            "description": "Learn CSS.......",
+            "price": "15$"
+        },
+        {
+            "cID": 3,
+            "name": "JS",
+            "description": "Learn JavaScript.....",
+            "price": "50$"
+        },
+        {
+            "cID": 4,
+            "name": "NODE",
+            "description": "Learn Node JS......",
+            "price": "90$"
+        }
+    ]
+]
+```
 # Record
 When we visualize an entity in a tabular form, each row in the table represents a single record or instance of that entity
 
 # Document 
 An entity contains multiple number of record/document within a table like structure.
+![alt text](image-4.png)
 
 In **MongoDB** each record present within entity table is a document, which is a data structure composed of **field (In ER Diagram this is => Attribute)** and **value** pairs. **MongoDB** documents are similar to JSON objects.
 **Example of record in below:**<br>
@@ -64,79 +137,6 @@ By wrapping all existing JSON-formatted records/documents belonging to a specifi
 ]
 ```
 
-# Database
-
-**What is a Database?** 
-- Think of a database like a big box where you keep smaller boxes. Each smaller box holds things that are related to each other, like clothes in a drawer.
-- It's also like a big bookshelf where each shelf (collection) holds books (documents) on a similar topic.
-
-**Why Do We Need Databases?** 
-- They help us keep our stuff organized. Instead of scattering items all over the place, we can group them together neatly.
-- Just like how folders on your computer help you find files quickly, databases help us find information efficiently.
-
-**Key Points:**
-- **Database:** It's a big box (or bookshelf) holding smaller boxes (or shelves) where we keep related things (or documents).
-- **Collections:** These are the smaller boxes (or shelves) inside the big box (or bookshelf), organizing similar items together.
-- Databases make it easy to manage and find information when it's all neatly organized.
-
-![alt text](image-3.png)
-**Example of DB below:**
-```json
-[
-    [
-        {
-            "uID": 1,
-            "name": "Rashed",
-            "email": "rashed@gmail.com",
-            "password": "Xy7#nKp2@"
-        },
-        {
-            "uID": 2,
-            "name": "Jaman",
-            "email": "jaman@gmail.com",
-            "password": "$L9wYq3r"
-        },
-        {
-            "uID": 3,
-            "name": "Raju",
-            "email": "raju@gmail.com",
-            "password": "6bZ&g#Px"
-        },
-        {
-            "uID": 4,
-            "name": "Rimon",
-            "email": "rimon@gmail.com",
-            "password": "4sV@jK!8"
-        }
-    ],
-    [
-        {
-            "cID": 1,
-            "name": "HTML",
-            "description": "Learn HTML.......",
-            "price": "10$"
-        },
-        {
-            "cID": 2,
-            "name": "CSS",
-            "description": "Learn CSS.......",
-            "price": "15$"
-        },
-        {
-            "cID": 3,
-            "name": "JS",
-            "description": "Learn JavaScript.....",
-            "price": "50$"
-        },
-        {
-            "cID": 4,
-            "name": "NODE",
-            "description": "Learn Node JS......",
-            "price": "90$"
-        }
-    ]
-]
-```
 ## Input Format: JSON
 
 For storing new record/document in database first we need to input the new record/document in JSON format
